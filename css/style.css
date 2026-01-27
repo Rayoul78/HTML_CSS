@@ -35,4 +35,10 @@ li , h2 , p {
 
 .degrade_lien {
     background: linear-gradient(#8E86B5, #ACAEED);
+    border-radius: 50px;
 }   
+
+.tableau_competences {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+}
