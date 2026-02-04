@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 em {
   color: #a5b4fc;
   font-style: normal;
@@ -29,14 +33,24 @@ li , h2 , p {
   color: #F9F8FF;
 }   
 
-.entete , .pied_de_page  {
+header,
+footer  {
   background-color: white;
+}
+
+.lien_icone:hover {
+        opacity: 0.4;
 }
 
 .degrade_lien {
     background: linear-gradient(#8E86B5, #ACAEED);
     border-radius: 50px;
-}   
+}  
+
+.degrade_lien:hover {
+    background: linear-gradient(#696484 , #8788BA);
+    text-decoration: none;
+}
 
 .tableau_competences {
     border-right: 1px solid #8e86b5;
